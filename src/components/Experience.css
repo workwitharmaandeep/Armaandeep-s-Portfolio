@@ -1,0 +1,39 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-item h4 {
+  font-size: 1.125rem;
+}
+
+.company {
+  color: #2563eb;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.duration {
+  display: block;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+body.dark-mode .experience-item h4 {
+  color: #ffffff;
+}
+
+body.dark-mode .company {
+  color: #60a5fa;
+}
+
+@media (max-width: 768px) {
+  .company {
+    display: block; /* Moves the company/institution to a new line on mobile */
+    margin-left: 0;
+    margin-top: 0.25rem;
+  }
+}

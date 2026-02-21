@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  padding: 3rem 0;
+  color: #6b7280;
+}
+
+.footer a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.mobile-break {
+  display: none;
+}
+
+body.dark-mode .footer a {
+  color: #60a5fa;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+  .mobile-break {
+    display: block; /* Forces the email to its own line on mobile to prevent overflow */
+  }
+}
