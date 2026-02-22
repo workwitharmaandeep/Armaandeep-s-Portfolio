@@ -3,8 +3,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  /* Removed the display: flex from here */
-  /* Glassmorphism Effect */
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -12,25 +10,20 @@
   z-index: 1000;
   transition: all 0.3s ease;
 }
-
-/* Add styles for the new inner container */
 .navbar-container {
-  max-width: 1100px; /* MUST match the max-width of .portfolio-container */
-  margin: 0 auto; /* Centers the inner navbar content */
-  padding: 1rem 2rem; /* Moves padding from the outer nav to the inner container */
+  max-width: 1100px; 
+  margin: 0 auto;
+  padding: 1rem 2rem; 
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* ... Keep the rest of your Navbar.css exactly the same below this point ... */
 .nav-brand {
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
-/* ... etc ... */
 
 .nav-links {
   display: flex;
@@ -50,8 +43,8 @@
   color: #000;
 }
 .theme-toggle-nav {
-  background: #f3f4f6; /* Soft gray background for light mode */
-  border: 1px solid #e5e7eb; /* Subtle border */
+  background: #f3f4f6; 
+  border: 1px solid #e5e7eb; 
   color: #111;
   font-size: 1.25rem;
   cursor: pointer;
@@ -69,7 +62,6 @@
   background: #e5e7eb;
   transform: scale(1.05);
 }
-/* Dark Mode */
 body.dark-mode .navbar {
   background: rgba(18, 18, 18, 0.7);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -80,11 +72,11 @@ body.dark-mode .nav-links a:hover { color: #fff; }
 @media (max-width: 768px) {
   .navbar { padding: 1rem; }
   .nav-links { gap: 1rem; }
-  .nav-links a { display: none; /* Hides text links on mobile for clean UI */ }
+  .nav-links a { display: none; }
 }
-/* Update the existing dark mode navbar styles to include the button */
+
 body.dark-mode .theme-toggle-nav {
-  background: #222; /* Darker background for dark mode */
+  background: #222; 
   border-color: #333;
 }
 

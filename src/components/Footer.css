@@ -28,6 +28,6 @@ body.dark-mode .footer a {
     font-size: 0.9rem;
   }
   .mobile-break {
-    display: block; /* Forces the email to its own line on mobile to prevent overflow */
+    display: block; 
   }
 }

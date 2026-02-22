@@ -30,7 +30,7 @@ function App() {
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <div className="portfolio-container">
         
-        {/* Hero loads immediately, no fade wrapper */}
+       
         <Hero data={portfolioData} />
         
         <div id="experience">

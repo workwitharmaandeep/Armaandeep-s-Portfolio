@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   min-height: 90vh;
-  padding-top: 5rem; /* Accounts for navbar */
+  padding-top: 5rem;
   gap: 4rem;
 }
 
@@ -83,8 +83,6 @@
 .hero-socials a:hover {
   border-bottom-color: #111;
 }
-
-/* Image Styling */
 .hero-image-wrapper {
   flex: 1;
   position: relative;
@@ -117,8 +115,6 @@
 .hero-image:hover {
   transform: rotate(0deg) scale(1.02);
 }
-
-/* Dark Mode Overrides */
 body.dark-mode .hero-name, body.dark-mode .hero-socials a { color: #fff; }
 body.dark-mode .hero-socials a:hover { border-bottom-color: #fff; }
 body.dark-mode .hero-role { color: #a3a3a3; }
@@ -126,8 +122,6 @@ body.dark-mode .hero-intro { color: #d4d4d4; }
 body.dark-mode .btn-primary { background: #fff; color: #111; }
 body.dark-mode .btn-primary:hover { background: #e5e5e5; }
 body.dark-mode .image-backdrop { background: linear-gradient(135deg, #3730a3 0%, #6b21a8 100%); opacity: 0.5; }
-
-/* Responsive */
 @media (max-width: 900px) {
   .hero {
     flex-direction: column-reverse;

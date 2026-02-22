@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './shared/Section';
-import './Experience.css'; // Reusing experience styles since the layout is identical
+import './Experience.css';
 
 export default function Education({ educationList }) {
   return (

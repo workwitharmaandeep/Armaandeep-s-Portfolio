@@ -16,7 +16,7 @@
 }
 
 .project-card p {
-  flex-grow: 1; /* Pushes the link to the bottom */
+  flex-grow: 1; 
 }
 
 .project-link {

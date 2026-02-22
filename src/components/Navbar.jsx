@@ -4,7 +4,6 @@ import './Navbar.css';
 export default function Navbar({ isDarkMode, toggleTheme }) {
   return (
     <nav className="navbar">
-      {/* Add this new container div */}
       <div className="navbar-container"> 
         <div className="nav-brand">Armaaandeep's Portfolio.</div>
         <div className="nav-links">

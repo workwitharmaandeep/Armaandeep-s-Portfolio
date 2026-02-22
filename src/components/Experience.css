@@ -32,7 +32,7 @@ body.dark-mode .company {
 
 @media (max-width: 768px) {
   .company {
-    display: block; /* Moves the company/institution to a new line on mobile */
+    display: block; 
     margin-left: 0;
     margin-top: 0.25rem;
   }
