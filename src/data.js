@@ -22,9 +22,14 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "This is a sample project card",
-      description: "Projects loading... soon;",
-      link: "#"
+      title: "Schematic-search bar",
+      description: `Schematic Explorer A high-performance, full-stack search engine built to aggregate and index over 26,000 electronic schematics. Engineered with a custom Node.js data pipeline that parses raw directory structures into a relational MySQL database. The frontend utilizes Next.js and Tailwind CSS to deliver a blazingly fast, responsive, and accessible search experience, completely bypassing the original site's bandwidth limitations. \n  Originalsite:http://www.schematicsforfree.com/`,
+      link: "https://schematic-search.vercel.app/"
+    },
+    {
+      title: "E-commerce website",
+      description: `A responsive, full-stack e-commerce application tailored for Gen Z fashion. Built with Next.js and Tailwind CSS, the platform delivers a fast, seamless shopping experience with dynamic product routing, category-based filtering, and a custom-built shopping cart. The application features robust user authentication integrating NextAuth for Google OAuth and Firebase for secure mobile OTP logins`,
+      link: "https://armaancollection.vercel.app/"
     },
   ],
   contact: {
