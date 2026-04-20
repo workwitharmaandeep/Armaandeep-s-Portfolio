@@ -11,6 +11,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import FadeInSection from './components/shared/FadeInSection'; // <-- Import the new wrapper
+import Funprojects from './components/Funprojects';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -51,6 +52,11 @@ function App() {
         <div id="projects">
           <FadeInSection>
             <Projects projectList={portfolioData.projects} />
+          </FadeInSection>
+        </div>
+        <div>
+          <FadeInSection>
+            <Funprojects funprojectList={portfolioData.funprojects}/>
           </FadeInSection>
         </div>
         

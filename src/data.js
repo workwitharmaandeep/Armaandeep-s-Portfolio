@@ -32,6 +32,13 @@ export const portfolioData = {
       link: "https://armaancollection.vercel.app/"
     },
   ],
+  funprojects: [
+    {
+      title: "Proposesite using particles",
+      description: `This is a fun website which you can use to propose your crush in this website there is a cluster of particles which joins together to build your message which I made using React and Three js library.`,
+      link: "https://site143.vercel.app/"
+    },
+  ],
   contact: {
     email: "workwitharmaandeep@gmail.com",
     github: "https://github.com/workwitharmaandeep",
